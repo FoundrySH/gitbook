@@ -1,3 +1,4 @@
-# My Awesome Book
+# Foundry Syntax
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+The Foundry Syntax API runs on a Go server on a Docker instance. It shells out to a couple tools to transform JavaScript code into beautiful syntax-highlighted images.
+

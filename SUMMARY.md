@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [Foundry Syntax](syntax.md)
-* [Data](data.md)
+* [Foundry Data](data.md)
 

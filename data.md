@@ -118,5 +118,23 @@ POST https://data.foundry.sh/
 }
 ```
 
+Returns the new API endpoint and authorization keys for each method.
+
+```
+HTTP/1.1 201 Created
+Location: https://data.foundry.sh/<id>/
+{
+    "authorization": {
+        "admin": "tgeyzqryuuoqwppwaoafxxiyvfszileq",
+        "delete": "wjatkpzagpjqkmmuqrqgtqngmslbnwbd",
+        "get": "hwulumjzorciqhknhqahzjkakamiyqfh",
+        "getone": "rsatmnbffumpcfaumohkmclnrdpivgjo",
+        "patch": "yptquwnnzzfdicaxotphxxgyerarieya",
+        "post": "jppvzjvxracamqzevzfnltyhfztsodbk"
+    },
+    "endpoint": "https://data.foundry.sh/<id>/"
+}
+```
+
 
 

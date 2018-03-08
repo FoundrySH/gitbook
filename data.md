@@ -103,8 +103,19 @@ GET /sqlite.db
 
 ### API Methods
 
+Create a new API. POST a JSON object of model schemas to /. Supported field types are:
+
+```
+'boolean', 'integer', 'float', 'text', 'date', 'datetime'
+```
+
 ```
 POST https://data.foundry.sh/
+{
+  "<model>": {
+    "<field>": "<type>"
+  }
+}
 ```
 
 

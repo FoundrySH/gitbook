@@ -27,7 +27,7 @@ Simply send JavaScript source code as the POST body to the API. The API returns 
 Request
 
 ```
-POST https://syntax-api.foundry.sh/
+POST https://runner.foundry.sh/syntax/
 const Demo = () => {
     console.log('Hello world!')
 }
